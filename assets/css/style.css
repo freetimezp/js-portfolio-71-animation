@@ -179,3 +179,71 @@ html, body {
     font-weight: 400;
 }
 
+
+
+
+
+#motive {
+    padding: 10vw;
+    position: relative;
+}
+
+#motive h3 {
+    font-size: 3vw;
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+
+#motive p {
+    display: flex;
+    align-items: center;
+    font-size: 2vw;
+    font-weight: 600;
+    line-height: 2;
+    width: 65%;
+    font-family: sans-serif;
+    display: inline-block;
+    text-align: right;
+    position: absolute;
+    right: 10vw;
+}
+
+#motive span {
+    width: 190px;
+    height: 80px;
+    margin: 0 10px;
+    display: inline-block;
+    border-radius: 100px;
+    background-color: red;
+    transform: translateY(30%);
+}
+
+#onespan {
+    background: url('../images/img-2.jpg') no-repeat;
+    background-position: center 25%;
+    background-size: cover;
+}
+
+#twospan {
+    background: url('../images/img-3.jpg') no-repeat;
+    background-position: center 15%;
+    background-size: cover;
+}
+
+#threespan {
+    background: url('../images/gif-1.gif') no-repeat;
+    background-position: center 15%;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
