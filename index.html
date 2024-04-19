@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <link href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Project | Animation</title>
 </head>
@@ -14,18 +19,18 @@
         <div id="home">
             <div id="nav">
                 <div id="nleft">
-                    <a href="#">Home</a>
-                    <a href="#">Pricing</a>
-                    <a href="#">Catalog</a>
+                    <a href="#" class="nlink">Home</a>
+                    <a href="#" class="nlink">Pricing</a>
+                    <a href="#" class="nlink">Catalog</a>
                 </div>
-                <a href="#" class="logo">Logo</a>
+                <a href="#" class="logo nlink">Logo</a>
                 <div id="nright">
-                    <a href="#">Our Journey</a>
+                    <a href="#" class="nlink">Our Journey</a>
                 </div>
             </div>
 
             <div id="hero">
-                <div id="sustain">
+                <div id="sustain" class="anim2">
                     <h4>01.</h4>
                     <h2>Be Ready.</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -34,12 +39,12 @@
                     </div>
                 </div>
 
-                <div id="ephemeral">
+                <div id="ephemeral" class="anim2">
                     <div id="heading">
                         <h1>Ephemeral.</h1>
                         <h2>Mystery.</h2>
                     </div>
-                    <img src="./assets/images/img-4.jpg" alt="">
+                    <img src="./assets/images/img-4.jpg" alt="" class="imgntext">
                     <div class="ephemeral-text">
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -48,7 +53,7 @@
                     </div>
                 </div>
 
-                <div id="visit">
+                <div id="visit" class="anim2">
                     <div id="circlev">
                         <i class="ri-arrow-down-line"></i>
                     </div>
@@ -73,14 +78,14 @@
         <div id="pictures">
             <div id="firstpic">
                 <div id="picimg">
-                    <img src="./assets/images/gif-2.gif" alt="">
+                    <img src="./assets/images/gif-2.gif" alt="" class="imgntext">
                 </div>
                 <h1>Lecantropy.</h1>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
             </div>
             <div id="secondpic">
                 <div id="picimg">
-                    <img src="./assets/images/pic-2.jpg" alt="">
+                    <img src="./assets/images/pic-2.jpg" alt="" class="imgntext">
                 </div>
                 <h1>Harmony.</h1>
                 <p>
@@ -93,6 +98,7 @@
         <div id="banner">
             <div id="bimg">
                 <img src="./assets/images/img-5.jpg" alt="">
+                <img src="./assets/images/img-6.jpg" alt="">
             </div>
             <div id="btext">
                 <h1>Brave & Strong Heroes</h1>
@@ -112,6 +118,14 @@
             </div>
         </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollTrigger/1.0.6/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+
+    <script type="text/javascript" src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
 
     <script src="./assets/js/main.js"></script>
 </body>

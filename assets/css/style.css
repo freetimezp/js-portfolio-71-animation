@@ -114,8 +114,9 @@ html, body {
 
 #ephemeral #heading {
     position: absolute;
-    top: -6.5rem;
+    top: -10.5rem;
     left: -2rem;
+    z-index: 1000;
 }
 
 #ephemeral img {
@@ -177,6 +178,7 @@ html, body {
 #visit h3 {
     color: #494646;
     font-weight: 400;
+    text-wrap: nowrap;
 }
 
 
